@@ -54,4 +54,13 @@ h2 {
 img {
     float: right;
     margin: 2rem;
+}
+.list-2 {
+    display: block;
+    margin: 0;
+    padding: .5rem;
+}
+.skills-container {
+    margin-top: 3rem;
+}
 
