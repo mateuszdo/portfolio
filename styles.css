@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(141, 138, 138);
-    background-color:  rgb(243, 224, 224);
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
     
      
     
@@ -28,3 +29,29 @@ h2 {
     font-size: 1.25rem;
     margin-top: -1.25rem;
 }
+.main-section {
+    width: 100%;
+    border: .1rem solid;
+    height: 30rem;
+}
+.me-container {
+    float: left;
+    width: 50%;
+    height: 20rem;
+    padding: 3rem;
+    margin-top: 1rem;
+    
+
+}
+.rest {
+    float: right;
+    width: 50%;
+    height: 20rem;
+    padding: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+img {
+    float: right;
+    margin: 2rem;
+
