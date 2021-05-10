@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(141, 138, 138);
+    background-color:  rgb(243, 224, 224);
+    
+     
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;;
+}
+li {
+    display: inline-block;
+    padding: 4rem;
+    font-family: 'Architects Daughter';
+}
+h1 {
+    font-size: 3rem;
+    font-family: 'Mandali';
+}
+h2 {
+    font-family: 'Mandali';
+    font-size: 1.25rem;
+    margin-top: -1.25rem;
+}
