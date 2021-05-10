@@ -19,14 +19,20 @@ li {
     padding: 4rem;
     font-family: 'Architects Daughter';
 }
+a {
+    font-family: 'Architects Daughter';
+    text-decoration: none;
+}
 h1 {
     font-size: 3rem;
     font-family: 'Mandali';
+    color: rgb(112, 112, 106)
 }
 h2 {
     font-family: 'Mandali';
     font-size: 1.25rem;
     margin-top: -1.25rem;
+    opacity: .8;
 }
 .main-section {
     width: 100%;
@@ -68,4 +74,19 @@ h2 {
 .skills-container {
     margin-top: 4rem;
 }
+footer {
+    margin-top: 3rem;
+}
+.left-footer {
+    float: left;
+    width: 40%;
+    margin: 3rem;
+    
+}
+.right-footer {
+    float: right;
+    width: 30%;
+    margin-top: 5rem;
+   
 
+}
