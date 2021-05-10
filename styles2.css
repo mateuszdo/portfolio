@@ -6,6 +6,11 @@
     color: rgb(87, 83, 83);
     
 }
+h1 {
+    font-size: 3rem;
+    font-family: 'Mandali';
+    color: rgb(99, 99, 94)
+}
  
 
 header {
