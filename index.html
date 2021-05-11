@@ -31,8 +31,10 @@
     <main class="main-section">
       <section class="about-me">
        <div class="me-container container">
-        <img class="main-image" src="Street Photo Brighton_0016.jpg" width="150px">
-            
+           <div class='main-image'>
+        <img  id="main-img" src="Street Photo Brighton_0016.jpg" width="150px" onclick="change()">
+            <p class="click">Click the image</p>
+            </div>
            <h3>About Me</h3><br>
            <p>Hi! I am Mateusz, a web developer living in UK. I love to design and build websites that looks clean and simple, but has got a lot of interactivity applied in the background. My goal is to became a digital nomad, working remotely from most beautiful places in the world!</p><br>
            <p>I was never into computer stuff until I lost my job a year ago and I started looking for a different path for my carreer. I found a great course on Codecademy and I can't stop coding ever since, that's how addictive it is.</p><br>
@@ -64,5 +66,18 @@
         <ul><li><img class="list-4" src="instagram.png" width="25px"></li><li><img class="list-4" src="facebook.png" width="25px"></li><li><img class="list-4" src="linkedin.png" width="25px"></li></ul>
         <h5>Copyright @ Mateusz Dobrzynski 2021</h5>
     </footer>
+    <script>
+        var image_tracker = 'S'
+       function change() {
+           var image = document.getElementById('main-img');
+           if(image_tracker=='S') {
+           image.src = '20151021_Beard_and_Moustache_Mateusz_Dobrzynski_Videographer_by_giwanski_Photographer_Retoucher-25.jpg'
+           image_tracker = '2';
+       } else {
+           image.src = 'Street Photo Brighton_0016.jpg';
+           image_tracker = 'S';
+       }
+       }
+    </script>
 </body>
 </html>
